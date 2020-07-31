@@ -1,0 +1,197 @@
+.coverpage-container {
+    padding: 20px;
+    background-color: #172a45;
+    text-align: center;
+}
+
+.main-title {
+    color: #ffffff !important;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 4.5rem;
+    margin-top: 70px !important;
+}
+
+.main-subtitle {
+    color: #64ffda !important;
+    font-size: 1.4rem;
+}
+
+.secondary-title {
+    color: #ffffff !important;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 1.8rem;
+    margin-top: 50px !important;
+    margin-bottom: 80px !important;
+}
+
+.coverpage-row {
+    margin-bottom: 160px;
+}
+
+.coverpage-image {
+    grid-column: 1 / 8;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    display: block;
+    text-decoration-skip-ink: auto;
+    height: auto;
+    width: 100%;
+}
+
+.step-text-pr {
+    padding-right: 50px;
+}
+
+.step-text-pl {
+    padding-left: 50px;
+}
+
+@media (max-width: 575.98px) {
+    .main-title {
+        font-size: 2.2rem;
+        margin-top: 20px !important;
+    }
+
+    .main-subtitle {
+        font-size: 1rem;
+    }
+
+    .secondary-title {
+        font-size: 1.2rem;
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .step-text-pr {
+        padding-right: 0px;
+    }
+
+    .step-text-pl {
+        padding-left: 0px;
+    }
+
+    .coverpage-row {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-title {
+        font-size: 3rem;
+        margin-top: 30px !important;
+    }
+
+    .main-subtitle {
+        font-size: 1rem;
+    }
+
+    .secondary-title {
+        font-size: 1.4rem;
+        margin-top: 30px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .step-text-pr {
+        padding-right: 0px;
+    }
+
+    .step-text-pl {
+        padding-left: 0px;
+    }
+
+    .coverpage-row {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-title {
+        font-size: 3.5rem;
+    }
+
+    .main-subtitle {
+        font-size: 1rem;
+    }
+
+    .secondary-title {
+        margin-top: 30px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .step-text-pr {
+        padding-right: 0px;
+    }
+
+    .step-text-pl {
+        padding-left: 0px;
+    }
+
+    .coverpage-row {
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-title {
+        font-size: 4rem;
+    }
+
+    .main-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .secondary-title {
+        margin-top: 30px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .step-text-pr {
+        padding-right: 20px;
+    }
+
+    .step-text-pl {
+        padding-left: 20px;
+    }
+
+    .coverpage-row {
+        margin-bottom: 130px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .coverpage-row {
+        display: flex !important;
+    }
+
+    .row-reverse {
+        flex-direction: row-reverse !important;
+    }
+
+    .align-left {
+        text-align: left !important;
+    }
+
+    .align-right {
+        text-align: right !important;
+    }
+
+    .coverpage-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .step-title {
+        font-size: 1.6rem;
+    }
+
+    .step-text {
+        font-size: 1.2rem;
+    }
+}
